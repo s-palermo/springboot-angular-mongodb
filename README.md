@@ -7,9 +7,10 @@ This project creates an example Invoice Portal using Spring-Boot, AngularJS, and
 
 | Prerequisite | Installation Instructions |
 | ------ | ------ |
-| Java JDK 1.8 | [Oracle JDK 8 Install] [PlDb] |
-| Maven 3.3 or later | [Apache Maven Install] [PlGh] |
-| MongoDB 3.5 or later | [MongoDB Install] [PlGd] |
+| Java JDK 1.8 | [Oracle JDK 8 Install][PlDb] |
+| Maven 3.3 or later | [Apache Maven Install][PlGh] |
+| MongoDB 3.5 or later | [MongoDB Install][PlGd] |
+
 Make sure these prerequisites are correctly installed and added to the System Path before proceding.
 ### Configuration
 
