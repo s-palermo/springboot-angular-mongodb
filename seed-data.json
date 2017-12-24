@@ -1,0 +1,349 @@
+/* 1 */
+{
+    "_id" : "123",
+    "amount_cents" : NumberLong(90000),
+    "created_at" : "12/23/2017 14:49:29 EST",
+    "due_date" : "12/15/2017",
+    "invoice_date" : "12/10/2017",
+    "po_number" : "Z12345ABCDE"
+}
+
+/* 2 */
+{
+    "_id" : "124",
+    "amount_cents" : NumberLong(500),
+    "created_at" : "12/23/2017 14:50:48 EST",
+    "due_date" : "12/18/2017",
+    "invoice_date" : "12/11/2017",
+    "po_number" : "Z943EBFA865"
+}
+
+/* 3 */
+{
+    "_id" : "125",
+    "amount_cents" : NumberLong(20000),
+    "created_at" : "12/23/2017 14:51:01 EST",
+    "due_date" : "12/18/2017",
+    "invoice_date" : "12/11/2017",
+    "po_number" : "ZB43EBFA865"
+}
+
+/* 4 */
+{
+    "_id" : "052",
+    "amount_cents" : NumberLong(50000),
+    "created_at" : "12/23/2017 14:52:59 EST",
+    "due_date" : "01/22/2017",
+    "invoice_date" : "01/14/2017",
+    "po_number" : "ZB43EBFA875"
+}
+
+/* 5 */
+{
+    "_id" : "054",
+    "amount_cents" : NumberLong(30000),
+    "created_at" : "12/23/2017 14:53:10 EST",
+    "due_date" : "01/22/2017",
+    "invoice_date" : "01/14/2017",
+    "po_number" : "Z443FBFA875"
+}
+
+/* 6 */
+{
+    "_id" : "056",
+    "amount_cents" : NumberLong(30000),
+    "created_at" : "12/23/2017 14:53:23 EST",
+    "due_date" : "01/22/2017",
+    "invoice_date" : "01/14/2017",
+    "po_number" : "Z443F4FA876"
+}
+
+/* 7 */
+{
+    "_id" : "156",
+    "amount_cents" : NumberLong(31234),
+    "created_at" : "12/23/2017 14:59:35 EST",
+    "due_date" : "03/01/2017",
+    "invoice_date" : "02/11/2017",
+    "po_number" : "ZA44F4FA876"
+}
+
+/* 8 */
+{
+    "_id" : "159",
+    "amount_cents" : NumberLong(600),
+    "created_at" : "12/23/2017 15:00:04 EST",
+    "due_date" : "05/01/2017",
+    "invoice_date" : "04/11/2017",
+    "po_number" : "ZB44F4FA876"
+}
+
+/* 9 */
+{
+    "_id" : "169",
+    "amount_cents" : NumberLong(5600),
+    "created_at" : "12/23/2017 15:00:24 EST",
+    "due_date" : "05/01/2017",
+    "invoice_date" : "04/11/2017",
+    "po_number" : "ZB44F4BA876"
+}
+
+/* 10 */
+{
+    "_id" : "170",
+    "amount_cents" : NumberLong(4600),
+    "created_at" : "12/23/2017 15:00:39 EST",
+    "due_date" : "05/01/2017",
+    "invoice_date" : "04/11/2017",
+    "po_number" : "ZB44F4BA879"
+}
+
+/* 11 */
+{
+    "_id" : "171",
+    "amount_cents" : NumberLong(4600),
+    "created_at" : "12/23/2017 15:00:44 EST",
+    "due_date" : "05/01/2017",
+    "invoice_date" : "04/11/2017",
+    "po_number" : "ZB44F4BA871"
+}
+
+/* 12 */
+{
+    "_id" : "172",
+    "amount_cents" : NumberLong(1555),
+    "created_at" : "12/23/2017 15:01:13 EST",
+    "due_date" : "06/02/2017",
+    "invoice_date" : "05/22/2017",
+    "po_number" : "ZB44F4BA871"
+}
+
+/* 13 */
+{
+    "_id" : "173",
+    "amount_cents" : NumberLong(4000),
+    "created_at" : "12/23/2017 15:02:00 EST",
+    "due_date" : "06/02/2017",
+    "invoice_date" : "05/22/2017",
+    "po_number" : "Z0F22BF809A"
+}
+
+/* 14 */
+{
+    "_id" : "174",
+    "amount_cents" : NumberLong(4000),
+    "created_at" : "12/23/2017 15:02:08 EST",
+    "due_date" : "06/02/2017",
+    "invoice_date" : "05/22/2017",
+    "po_number" : "Z0F22BF809B"
+}
+
+/* 15 */
+{
+    "_id" : "175",
+    "amount_cents" : NumberLong(4000),
+    "created_at" : "12/23/2017 15:02:12 EST",
+    "due_date" : "06/02/2017",
+    "invoice_date" : "05/22/2017",
+    "po_number" : "ZCF22BF809B"
+}
+
+/* 16 */
+{
+    "_id" : "176",
+    "amount_cents" : NumberLong(4000),
+    "created_at" : "12/23/2017 15:02:18 EST",
+    "due_date" : "06/02/2017",
+    "invoice_date" : "05/22/2017",
+    "po_number" : "ZDF22BF809B"
+}
+
+/* 17 */
+{
+    "_id" : "177",
+    "amount_cents" : NumberLong(970000),
+    "created_at" : "12/23/2017 15:02:47 EST",
+    "due_date" : "07/14/2017",
+    "invoice_date" : "06/22/2017",
+    "po_number" : "ZCF22BF809B"
+}
+
+/* 18 */
+{
+    "_id" : "178",
+    "amount_cents" : NumberLong(180000),
+    "created_at" : "12/23/2017 15:02:56 EST",
+    "due_date" : "07/14/2017",
+    "invoice_date" : "06/22/2017",
+    "po_number" : "ZDF22BF809B"
+}
+
+/* 19 */
+{
+    "_id" : "179",
+    "amount_cents" : NumberLong(12500),
+    "created_at" : "12/23/2017 15:03:12 EST",
+    "due_date" : "07/14/2017",
+    "invoice_date" : "06/22/2017",
+    "po_number" : "ZA012BF809B"
+}
+
+/* 20 */
+{
+    "_id" : "180",
+    "amount_cents" : NumberLong(800),
+    "created_at" : "12/23/2017 15:03:32 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "ZB012BF809B"
+}
+
+/* 21 */
+{
+    "_id" : "181",
+    "amount_cents" : NumberLong(5800),
+    "created_at" : "12/23/2017 15:03:40 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "ZC012BF809B"
+}
+
+/* 22 */
+{
+    "_id" : "182",
+    "amount_cents" : NumberLong(7800),
+    "created_at" : "12/23/2017 15:03:45 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "ZD012BF809B"
+}
+
+/* 23 */
+{
+    "_id" : "183",
+    "amount_cents" : NumberLong(7900),
+    "created_at" : "12/23/2017 15:03:57 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "Z4012BF809B"
+}
+
+/* 24 */
+{
+    "_id" : "184",
+    "amount_cents" : NumberLong(7900),
+    "created_at" : "12/23/2017 15:04:03 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "Z4112BF809B"
+}
+
+/* 25 */
+{
+    "_id" : "185",
+    "amount_cents" : NumberLong(7900),
+    "created_at" : "12/23/2017 15:04:11 EST",
+    "due_date" : "07/19/2017",
+    "invoice_date" : "07/12/2017",
+    "po_number" : "ZBB22BF809B"
+}
+
+/* 26 */
+{
+    "_id" : "186",
+    "amount_cents" : NumberLong(468094),
+    "created_at" : "12/23/2017 15:04:55 EST",
+    "due_date" : "09/01/2017",
+    "invoice_date" : "08/22/2017",
+    "po_number" : "Z809AB8F01C"
+}
+
+/* 27 */
+{
+    "_id" : "187",
+    "amount_cents" : NumberLong(15005),
+    "created_at" : "12/23/2017 15:05:14 EST",
+    "due_date" : "09/01/2017",
+    "invoice_date" : "08/22/2017",
+    "po_number" : "Z609AB8F01C"
+}
+
+/* 28 */
+{
+    "_id" : "188",
+    "amount_cents" : NumberLong(15005),
+    "created_at" : "12/23/2017 15:05:20 EST",
+    "due_date" : "09/01/2017",
+    "invoice_date" : "08/22/2017",
+    "po_number" : "Z509AB8F01C"
+}
+
+/* 29 */
+{
+    "_id" : "189",
+    "amount_cents" : NumberLong(15005),
+    "created_at" : "12/23/2017 15:05:25 EST",
+    "due_date" : "09/01/2017",
+    "invoice_date" : "08/22/2017",
+    "po_number" : "Z409AB8F01C"
+}
+
+/* 30 */
+{
+    "_id" : "199",
+    "amount_cents" : NumberLong(17005),
+    "created_at" : "12/23/2017 15:05:45 EST",
+    "due_date" : "10/11/2017",
+    "invoice_date" : "09/22/2017",
+    "po_number" : "Z409AB8F01C"
+}
+
+/* 31 */
+{
+    "_id" : "200",
+    "amount_cents" : NumberLong(67005),
+    "created_at" : "12/23/2017 15:05:55 EST",
+    "due_date" : "10/11/2017",
+    "invoice_date" : "09/22/2017",
+    "po_number" : "ZB09AB8F01C"
+}
+
+/* 32 */
+{
+    "_id" : "201",
+    "amount_cents" : NumberLong(86400000),
+    "created_at" : "12/23/2017 15:06:27 EST",
+    "due_date" : "11/15/2017",
+    "invoice_date" : "10/22/2017",
+    "po_number" : "ZB09AB8F01C"
+}
+
+/* 33 */
+{
+    "_id" : "202",
+    "amount_cents" : NumberLong(800),
+    "created_at" : "12/23/2017 15:53:06 EST",
+    "due_date" : "11/15/2017",
+    "invoice_date" : "10/22/2017",
+    "po_number" : "ZB09AB8F01C"
+}
+
+/* 34 */
+{
+    "_id" : "542",
+    "amount_cents" : NumberLong(5),
+    "created_at" : "12/23/2017 19:15:47 EST",
+    "due_date" : "02/12/2017",
+    "invoice_date" : "01/12/2017",
+    "po_number" : "Z1234567890"
+}
+
+/* 35 */
+{
+    "_id" : "589",
+    "amount_cents" : NumberLong(5),
+    "created_at" : "12/23/2017 19:44:00 EST",
+    "due_date" : "02/12/2017",
+    "invoice_date" : "01/12/2017",
+    "po_number" : "Z542ABC2151"
+}

@@ -1,0 +1,51 @@
+body {
+  height: auto;
+}
+
+#logo {
+  max-width:100%;
+  max-height:100%;
+}
+
+#main-view {
+	text-alight:center;	
+}
+
+#inv-tbl-div {
+	margin: auto;
+    width: 50%;
+    text-align:center;	
+    padding-top:20px;
+}
+
+#inv-create-div {
+	margin: auto;
+    width: 50%;
+    text-align:center;	
+    padding-top:20px;
+}
+
+
+#create-inv-frm {
+	text-align: left;
+    max-width: 50%;
+    margin: auto;
+}
+
+#inv-update-div {
+	margin: auto;
+    width: 50%;
+    text-align:center;	
+    padding-top:20px;
+}
+
+#update-inv-frm {
+	text-align: left;
+    max-width: 50%;
+    margin: auto;
+}
+
+#create-inv-hdr,#update-inv-hdr,#inv-hdr,#landing-hdr {
+	padding-bottom:50px;
+	color: #254b8e;
+}

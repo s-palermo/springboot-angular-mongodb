@@ -1,0 +1,15 @@
+<div class="section">
+ <div id="inv-tbl-div">
+ <h1 id="inv-hdr">Invoices</h1>
+   <table ng-table="invoicesTable" id="invoicesTable" class="table table-condensed table-bordered table-striped">
+     <tr ng-repeat="row in $data">
+       <td data-title="'Id'">{{row.id}}</td>
+       <td data-title="'Purchase Order'">{{row.po_number}}</td>
+       <td data-title="'Invoice Date'">{{row.invoice_date}}</td>
+       <td data-title="'Due Date'">{{row.due_date}}</td>
+       <td data-title="'Amount (cents)'">{{row.amount_cents}}</td>
+       <td data-title="'Created Date'">{{row.created_at}}</td>
+     </tr>
+   </table>
+ </div>
+</div>

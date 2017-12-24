@@ -1,0 +1,47 @@
+<div id="inv-create-div" class="section">
+	<h1 id="update-inv-hdr">Create Invoice</h1>
+    <!-- FORM ============ -->  
+    <form id="create-inv-frm" name="invoiceForm" ng-submit="submitForm()" novalidate>		
+    	<div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+    	<div id="errors" class="alert alert-danger" data-ng-show="errors" data-ng-bind="errors"></div>
+		<!-- ID -->
+        <div class="form-group" ng-class="{ 'has-error' : invoiceForm.id.$invalid && !invoiceForm.id.$pristine }">
+            <label>ID</label>
+            <input type="text" name="id" class="form-control" ng-model="invoice.id" required>
+            <p ng-show="invoiceForm.id.$invalid && !invoiceForm.id.$pristine" class="help-block">An invoice ID is required.</p>
+        </div>
+        <!-- Purchase Order -->
+        <div class="form-group" ng-class="{ 'has-error' : (invoiceForm.po_number.$invalid && !invoiceForm.po_number.$pristine) || (!poRegex.test(invoice.po_number) && !invoiceForm.po_number.$pristine)}">
+            <label>Purchase Order</label>
+            <input type="text" name="po_number" class="form-control" ng-model="invoice.po_number" ng-focus="pofocus=true" ng-blur="pofocus=false" required>
+            <p ng-show="invoiceForm.po_number.$invalid && !invoiceForm.po_number.$pristine" class="help-block">A PO number is required.</p>
+            <p ng-show="!poRegex.test(invoice.po_number) && !invoiceForm.po_number.$pristine && !invoiceForm.po_number.$invalid && !pofocus" class="help-block">PO number must start with 'Z' followed by any combination of ten characters of numbers and the letters 'A' through 'F'.  Ex:Z123456ABCD</p>
+        </div>
+      
+        <!-- Invoice Date -->
+        <div class="form-group" ng-class="{ 'has-error' : invoiceForm.invoice_date.$invalid && !invoiceForm.invoice_date.$pristine }">
+            <label>Invoice Date</label>
+            <input type="date" name="invoice_date" class="form-control" ng-model="invoice.invoice_date" required>
+            <p ng-show="invoiceForm.invoice_date.$invalid && !invoiceForm.invoice_date.$pristine" class="help-block">An invoice date is required.</p>
+        </div>
+        
+        <!-- Due Date -->
+        <div class="form-group" ng-class="{ 'has-error' : (invoiceForm.due_date.$invalid && !invoiceForm.due_date.$pristine)  || invoice.due_date <= invoice.invoice_date}">
+            <label>Due Date</label>
+            <input type="date" name="due_date" class="form-control" ng-model="invoice.due_date" required>
+            <p ng-show="invoiceForm.due_date.$invalid && !invoiceForm.due_date.$pristine" class="help-block">A due date is required.</p>
+            <p ng-show="invoice.due_date <= invoice.invoice_date" class="help-block">Due date must be after invoice date.</p>   
+        </div>
+        
+        <!-- Amount -->
+        <div class="form-group" ng-class="{ 'has-error' : (invoiceForm.amount_cents.$invalid && !invoiceForm.amount_cents.$pristine) || invoice.amount_cents < 1 }">
+            <label>Amount (cents)</label>
+            <input type="number" name="amount_cents" class="form-control" ng-model="invoice.amount_cents" required>
+            <p ng-show="invoiceForm.amount_cents.$invalid && !invoiceForm.amount_cents.$pristine" class="help-block">An amount is required</p> 
+            <p ng-show="invoice.amount_cents < 1" class="help-block">Amount must be greater than 0</p>              
+        </div>
+        
+        <button type="submit" class="btn btn-primary" ng-disabled="invoiceForm.$invalid || invoice.amount_cents < 1 || invoice.due_date <= invoice.invoice_date || !poRegex.test(invoice.po_number)">Submit</button>
+        
+    </form>
+</div>
