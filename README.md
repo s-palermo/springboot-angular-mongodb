@@ -41,6 +41,7 @@ Optionally, you can also run it as a service.  For information on installing a s
 ### API Endpoints
 
 In addition to the portal, the application hosts a number of API endpoints that can be utilized.
+
 | Action | CRUD Operation | Endpoint |
 | ------ | ------ | ------ |
 | Create Invoice | POST | /api/invoice/create
