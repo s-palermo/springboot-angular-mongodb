@@ -52,11 +52,11 @@ Accepts: application/json
 Example:
 ```json
 { 
-    “id”:123, 
-    “po_number”:“Z12345ABCDE”, 
-    “invoice_date”:“01/03/2017”, 
-    “due_date”:“01/15/2017”,
-    “amount_cents”:15000
+    "id": "123",
+    "po_number": "Z12345ABCDE",
+    "invoice_date": "12/10/2017",
+    "due_date": "12/15/2017",
+    "amount_cents": 90000,
 }
 ```
 Constraints
@@ -146,7 +146,7 @@ Example Request: /api/invoice/delete?invoiceId=050
 Returns: application/json
 Response will contain the invoice that has just been deleted
 
-   [PlDb]: <https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html>
-   [PlGh]: <https://maven.apache.org/install.html>
-   [PlGd]: <https://docs.mongodb.com/getting-started/shell/installation/>
-   [PlOd]: <https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html>
+[PlDb]: <https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html>
+[PlGh]: <https://maven.apache.org/install.html>
+[PlGd]: <https://docs.mongodb.com/getting-started/shell/installation/>
+[PlOd]: <https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html>
