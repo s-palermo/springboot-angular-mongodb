@@ -52,12 +52,11 @@ Accepts: application/json
 Example:
 ```json
 { 
-    “id”:​ ​123, 
-    “po_number”:​ ​“Z12345ABCDE”, 
-    “invoice_date”:​ ​“01/03/2017”, 
-    “due_date”:​ ​“01/15/2017”,
-    “amount_cents”:​ ​15000, 
-    “created_at”:​ ​“2017-04-15T01:02:03Z” 
+    “id”:123, 
+    “po_number”:“Z12345ABCDE”, 
+    “invoice_date”:“01/03/2017”, 
+    “due_date”:“01/15/2017”,
+    “amount_cents”:15000
 }
 ```
 Constraints
