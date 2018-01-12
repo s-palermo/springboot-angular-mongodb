@@ -36,7 +36,7 @@ From the root directory where the pom.xml file is located, open a command prompt
 mvn spring-boot:run
 ```
 
-Optionally, you can also run it as a service.  For information on installing a spring-boot app as a service visit [Spring Boot Deployment Instructions] [PlOd]
+Optionally, you can also run it as a service.  For information on installing a spring-boot app as a service visit [Spring Boot Deployment Instructions][PlOd]
 
 ### API Endpoints
 
